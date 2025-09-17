@@ -61,14 +61,15 @@ main {
 
 .jumbotron {
     background-color: var(--dis-light);
-    position: relative;
-    padding: 60px 20px 140px;
+
+    padding: 60px 20px 14px;
     overflow: visible;
 }
 
 .jumbotron-container {
 
     margin-left: 180px;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -79,6 +80,8 @@ main {
 
 .jumbotron-text {
     flex: 1;
+
+
 }
 
 .jumbotron-text-h1 {
@@ -100,15 +103,21 @@ main {
 }
 
 .jumbotron-image {
-    flex: 1;
+    position: absolute;
+    bottom: -120px;
+    left: 300px;
 }
 
 .jumbotron-image img {
-    position: absolute;
-    right: 10%;
-    top: 160px;
+
     width: auto;
     max-width: 800px;
     min-width: 320px;
     height: auto;
+}
+
+.container {
+    padding-top: 15rem;
+    padding-left: 25rem;
+    padding-right: 25rem;
 }
