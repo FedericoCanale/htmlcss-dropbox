@@ -304,3 +304,43 @@ label {
   padding:12px 24px;
   font-size:14px;
 }
+.partner-row {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+
+.partner-image {
+  flex: 0 0 calc(65% - 10px); 
+}
+
+.partner-text {
+  flex: 0 0 calc(35% - 10px); 
+  padding-top: 2rem ;
+}
+
+.partner-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.partner-text h2 {
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+
+.partner-text p {
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.partner-btn {
+  background: transparent;
+  border: 1px solid #000;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+
