@@ -343,4 +343,36 @@ label {
   font-size: 14px;
 }
 
+.db-op {
+  width: 100%;  
+  height: auto; 
+  display: block;;
+}
 
+.db-pa {
+    font-size: small;
+}
+
+.op-row{
+  max-width:1200px;
+  margin:-1 auto;
+  display:flex;
+  gap:24px;
+  border: none;
+}
+
+.card-op{
+  flex: calc(100% / 3);
+  border:1px solid gray;
+  background:white;
+  padding:24px;
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+  border: none;
+}
+
+.op-h {
+    font-size: 14px;
+    padding-bottom: 1rem;
+}
