@@ -16,6 +16,7 @@
 }
 
 body {
+    font-family: open sans;
     
 }
 
@@ -168,7 +169,10 @@ label {
     display: flex;
     flex-direction: column;
     gap: 16px;
+   
 }
+
+
 
 
 .card-topline {
@@ -179,6 +183,7 @@ label {
     color: #333;
     font-size: 10px;
     padding-bottom: 12px;
+    text-align: center;
 }
 
 
