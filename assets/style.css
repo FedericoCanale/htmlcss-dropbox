@@ -4,6 +4,9 @@
     --dis-light: #b4d0e6;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 .debug * {
     border: 1px dashed;
 
@@ -70,6 +73,7 @@ header {
   gap: 40px;
   position: relative;
   z-index: 1;
+  padding: 2rem;
 }
 
 
@@ -96,6 +100,7 @@ header {
     padding:12px 24px; 
     font-size:1rem; 
 }
+
 
 
 .jumbotron-img{
@@ -161,6 +166,7 @@ label {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    margin-left: -1rem;
    
 }
 
@@ -342,7 +348,7 @@ label {
     width: 100%;
     height: auto;
     display: block;
-    ;
+    
 }
 
 .db-pa {
@@ -351,7 +357,7 @@ label {
 
 .op-row {
     max-width: 1200px;
-    margin: -1 auto;
+    
     display: flex;
     gap: 24px;
     border: none;
@@ -362,6 +368,7 @@ label {
     border: 1px solid gray;
     background: white;
     padding: 24px;
+    margin-left: -1rem;
  
     gap: 16px;
     border: none;
